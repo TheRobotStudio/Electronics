@@ -1,0 +1,38 @@
+Cmp-Mod V01 Created by CvPcb (2013-jul-07)-stable date = lun. 09 févr. 2015 10:03:13 CET
+
+BeginCmp
+TimeStamp = /54D3A629;
+Reference = C1;
+ValeurCmp = 10µF;
+IdModule  = SMDHD/VF;
+EndCmp
+
+BeginCmp
+TimeStamp = /54D0E342;
+Reference = CAN_Transceiver1;
+ValeurCmp = SN65HVD232D;
+IdModule  = so-8;
+EndCmp
+
+BeginCmp
+TimeStamp = /54D0EC4B;
+Reference = MASTER_EPOS2_1;
+ValeurCmp = Headers_CONN;
+IdModule  = PIN_ARRAY_5x2;
+EndCmp
+
+BeginCmp
+TimeStamp = /54D0E21B;
+Reference = MBED_SB_1;
+ValeurCmp = mbed_NXP_LPC1768;
+IdModule  = Mbed;
+EndCmp
+
+BeginCmp
+TimeStamp = /54D0EBED;
+Reference = R1;
+ValeurCmp = 120;
+IdModule  = SM0603;
+EndCmp
+
+EndListe
