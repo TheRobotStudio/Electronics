@@ -1,0 +1,129 @@
+Cmp-Mod V01 Created by CvPcb (2013-jul-07)-stable date = mer. 13 mai 2015 16:03:15 CEST
+
+BeginCmp
+TimeStamp = /54D3C3D0;
+Reference = 4.5v1;
+ValeurCmp = SWADJ;
+IdModule  = LM78XXV;
+EndCmp
+
+BeginCmp
+TimeStamp = /54D238C0;
+Reference = C1;
+ValeurCmp = 1µF;
+IdModule  = C1;
+EndCmp
+
+BeginCmp
+TimeStamp = /54D238CF;
+Reference = C2;
+ValeurCmp = 1µF;
+IdModule  = C1;
+EndCmp
+
+BeginCmp
+TimeStamp = /54D238DE;
+Reference = C3;
+ValeurCmp = 100 nF;
+IdModule  = C1;
+EndCmp
+
+BeginCmp
+TimeStamp = /54D238FC;
+Reference = C4;
+ValeurCmp = 100 nF;
+IdModule  = C1;
+EndCmp
+
+BeginCmp
+TimeStamp = /54D4F236;
+Reference = CF1;
+ValeurCmp = 47µF;
+IdModule  = C1V7;
+EndCmp
+
+BeginCmp
+TimeStamp = /54D3C68F;
+Reference = CF2;
+ValeurCmp = 10µF;
+IdModule  = C1V5;
+EndCmp
+
+BeginCmp
+TimeStamp = /54D238ED;
+Reference = C_BYPASS1;
+ValeurCmp = 100 nF;
+IdModule  = C1;
+EndCmp
+
+BeginCmp
+TimeStamp = /54D2310C;
+Reference = MBED_MB_1;
+ValeurCmp = mbed_NXP_LCP1768;
+IdModule  = Mbed;
+EndCmp
+
+BeginCmp
+TimeStamp = /55535943;
+Reference = P1;
+ValeurCmp = CONN_2;
+IdModule  = PIN_ARRAY_2X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /54D337AE;
+Reference = S1;
+ValeurCmp = SLAVE_CONN;
+IdModule  = pin_array_4x2;
+EndCmp
+
+BeginCmp
+TimeStamp = /54D337BD;
+Reference = S2;
+ValeurCmp = SLAVE_CONN;
+IdModule  = pin_array_4x2;
+EndCmp
+
+BeginCmp
+TimeStamp = /54D337CC;
+Reference = S3;
+ValeurCmp = SLAVE_CONN;
+IdModule  = pin_array_4x2;
+EndCmp
+
+BeginCmp
+TimeStamp = /54D337DB;
+Reference = S4;
+ValeurCmp = SLAVE_CONN;
+IdModule  = pin_array_4x2;
+EndCmp
+
+BeginCmp
+TimeStamp = /54D337EA;
+Reference = S5;
+ValeurCmp = SLAVE_CONN;
+IdModule  = pin_array_4x2;
+EndCmp
+
+BeginCmp
+TimeStamp = /54D337F9;
+Reference = S6;
+ValeurCmp = SLAVE_CONN;
+IdModule  = pin_array_4x2;
+EndCmp
+
+BeginCmp
+TimeStamp = /54D23189;
+Reference = SUB_D1;
+ValeurCmp = DB9;
+IdModule  = DB9FC;
+EndCmp
+
+BeginCmp
+TimeStamp = /54D3870B;
+Reference = U1;
+ValeurCmp = MAX232;
+IdModule  = DIP-16__300;
+EndCmp
+
+EndListe

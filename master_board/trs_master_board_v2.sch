@@ -36,7 +36,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "Master Board"
-Date "6 feb 2015"
+Date "13 may 2015"
 Rev "1.0.3"
 Comp "The Robot Studio"
 Comment1 ""
@@ -56,10 +56,10 @@ F 3 "" H 6100 3550 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L DB9 SUB_D
+L DB9 SUB_D1
 U 1 1 54D23189
 P 3600 2050
-F 0 "SUB_D" H 3600 2600 70  0000 C CNN
+F 0 "SUB_D1" H 3600 2600 70  0000 C CNN
 F 1 "DB9" H 3600 1500 70  0000 C CNN
 F 2 "" H 3600 2050 60  0000 C CNN
 F 3 "" H 3600 2050 60  0000 C CNN
@@ -67,10 +67,10 @@ F 3 "" H 3600 2050 60  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L GND #PWR1
+L GND #PWR01
 U 1 1 54D234E8
 P 6050 2250
-F 0 "#PWR1" H 6050 2250 30  0001 C CNN
+F 0 "#PWR01" H 6050 2250 30  0001 C CNN
 F 1 "GND" H 6050 2180 30  0001 C CNN
 F 2 "" H 6050 2250 60  0000 C CNN
 F 3 "" H 6050 2250 60  0000 C CNN
@@ -111,10 +111,10 @@ F 3 "~" H 2800 4000 60  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L CP1 C_BYPASS
+L CP1 C_BYPASS1
 U 1 1 54D238ED
 P 2900 3600
-F 0 "C_BYPASS" H 2900 3700 40  0000 L CNN
+F 0 "C_BYPASS1" H 2900 3700 40  0000 L CNN
 F 1 "100 nF" H 2906 3515 40  0000 L CNN
 F 2 "~" H 2938 3450 30  0000 C CNN
 F 3 "~" H 2900 3600 60  0000 C CNN
@@ -207,6 +207,65 @@ F 1 "MAX232" H 1700 3450 70  0000 C CNN
 F 2 "" H 1700 4300 60  0000 C CNN
 F 3 "" H 1700 4300 60  0000 C CNN
 	1    1700 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L 7805 4.5v1
+U 1 1 54D3C3D0
+P 6050 1550
+F 0 "4.5v1" H 6350 1550 20  0000 C CNN
+F 1 "SWADJ" H 6050 1750 60  0000 C CNN
+F 2 "" H 6050 1550 60  0000 C CNN
+F 3 "" H 6050 1550 60  0000 C CNN
+	1    6050 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L CP1 CF2
+U 1 1 54D3C68F
+P 6900 1750
+F 0 "CF2" H 6950 1850 50  0000 L CNN
+F 1 "10µF" H 6950 1650 50  0000 L CNN
+F 2 "~" H 6900 1750 60  0000 C CNN
+F 3 "~" H 6900 1750 60  0000 C CNN
+	1    6900 1750
+	1    0    0    -1  
+$EndComp
+Text Notes 5350 1600 0    20   ~ 0
+Two through holes pins\nto solder the battery plug
+Text Notes 2700 3250 0    20   ~ 0
+The 2 chemical caps \ncan be ceramic as well
+$Comp
+L GND #PWR02
+U 1 1 54D495A3
+P 3400 3750
+F 0 "#PWR02" H 3400 3750 30  0001 C CNN
+F 1 "GND" H 3400 3680 30  0001 C CNN
+F 2 "" H 3400 3750 60  0000 C CNN
+F 3 "" H 3400 3750 60  0000 C CNN
+	1    3400 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR03
+U 1 1 54D4984A
+P 10300 5450
+F 0 "#PWR03" H 10300 5450 30  0001 C CNN
+F 1 "GND" H 10300 5380 30  0001 C CNN
+F 2 "" H 10300 5450 60  0000 C CNN
+F 3 "" H 10300 5450 60  0000 C CNN
+	1    10300 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L CP1 CF1
+U 1 1 54D4F236
+P 6550 1750
+F 0 "CF1" H 6600 1850 50  0000 L CNN
+F 1 "47µF" H 6600 1650 50  0000 L CNN
+F 2 "~" H 6550 1750 60  0000 C CNN
+F 3 "~" H 6550 1750 60  0000 C CNN
+	1    6550 1750
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -357,7 +416,7 @@ Wire Wire Line
 Wire Wire Line
 	7400 5600 9900 5600
 Wire Wire Line
-	8100 1200 8800 1200
+	7900 1200 8800 1200
 Wire Wire Line
 	9900 2400 9900 2100
 Wire Wire Line
@@ -375,7 +434,7 @@ Wire Wire Line
 Wire Wire Line
 	9900 3700 9800 3700
 Wire Wire Line
-	8100 1300 8800 1300
+	8000 1300 8800 1300
 Wire Wire Line
 	9900 2900 9900 3200
 Wire Wire Line
@@ -413,45 +472,10 @@ Wire Wire Line
 	2750 4600 2750 4500
 Wire Wire Line
 	2750 4500 2500 4500
-$Comp
-L 7805 4.5v~-~14V
-U 1 1 54D3C3D0
-P 6050 1550
-F 0 "4.5v - 14V" H 6350 1550 20  0000 C CNN
-F 1 "SWADJ" H 6050 1750 60  0000 C CNN
-F 2 "" H 6050 1550 60  0000 C CNN
-F 3 "" H 6050 1550 60  0000 C CNN
-	1    6050 1550
-	1    0    0    -1  
-$EndComp
-$Comp
-L +BATT #PWR?
-U 1 1 54D3C3F8
-P 5350 1400
-F 0 "#PWR?" H 5350 1350 20  0001 C CNN
-F 1 "+BATT" H 5350 1500 30  0000 C CNN
-F 2 "" H 5350 1400 60  0000 C CNN
-F 3 "" H 5350 1400 60  0000 C CNN
-	1    5350 1400
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
-	5350 1400 5350 1500
-Wire Wire Line
-	5350 1500 5650 1500
+	5250 1500 5650 1500
 Wire Wire Line
 	5100 2050 6900 2050
-$Comp
-L CP1 CF2
-U 1 1 54D3C68F
-P 6900 1750
-F 0 "CF2" H 6950 1850 50  0000 L CNN
-F 1 "10µF" H 6950 1650 50  0000 L CNN
-F 2 "~" H 6900 1750 60  0000 C CNN
-F 3 "~" H 6900 1750 60  0000 C CNN
-	1    6900 1750
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	6900 900  6900 1550
 Wire Wire Line
@@ -462,34 +486,8 @@ Connection ~ 6900 1500
 Wire Wire Line
 	6050 1800 6050 2250
 Connection ~ 6050 2050
-Text Notes 5350 1600 0    20   ~ 0
-Two through holes pins\nto solder the battery plug
-Text Notes 2700 3250 0    20   ~ 0
-The 2 chemical caps \ncan be ceramic as well
-$Comp
-L GND #PWR?
-U 1 1 54D495A3
-P 3400 3750
-F 0 "#PWR?" H 3400 3750 30  0001 C CNN
-F 1 "GND" H 3400 3680 30  0001 C CNN
-F 2 "" H 3400 3750 60  0000 C CNN
-F 3 "" H 3400 3750 60  0000 C CNN
-	1    3400 3750
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	3400 3600 3400 3750
-$Comp
-L GND #PWR?
-U 1 1 54D4984A
-P 10300 5450
-F 0 "#PWR?" H 10300 5450 30  0001 C CNN
-F 1 "GND" H 10300 5380 30  0001 C CNN
-F 2 "" H 10300 5450 60  0000 C CNN
-F 3 "" H 10300 5450 60  0000 C CNN
-	1    10300 5450
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	5100 2600 5100 2050
 Wire Wire Line
@@ -497,86 +495,40 @@ Wire Wire Line
 Wire Wire Line
 	10300 5100 10300 5450
 Connection ~ 10000 5100
-Entry Wire Line
-	4800 2900 4900 3000
-Entry Wire Line
-	4800 3000 4900 3100
-Wire Bus Line
-	8000 1000 8000 5300
 Wire Wire Line
 	8800 1100 8700 1100
 Connection ~ 8700 1100
 Connection ~ 6900 900 
-Entry Wire Line
-	8000 1100 8100 1200
-Entry Wire Line
-	8000 1200 8100 1300
-Entry Wire Line
-	8000 1300 8100 1400
-Entry Wire Line
-	8000 1900 8100 2000
-Entry Wire Line
-	8000 2000 8100 2100
-Entry Wire Line
-	8000 2100 8100 2200
 Wire Wire Line
-	8800 2000 8100 2000
+	7900 2000 8800 2000
 Wire Wire Line
-	8100 2100 8800 2100
+	8000 2100 8800 2100
 Wire Wire Line
 	8800 2200 8100 2200
-Entry Wire Line
-	8000 2700 8100 2800
-Entry Wire Line
-	8000 2800 8100 2900
-Entry Wire Line
-	8000 2900 8100 3000
 Wire Wire Line
-	8800 2800 8100 2800
+	7900 2800 8800 2800
 Wire Wire Line
-	8800 2900 8100 2900
+	8000 2900 8800 2900
 Wire Wire Line
 	8800 3000 8100 3000
-Entry Wire Line
-	8000 4300 8100 4400
-Entry Wire Line
-	8000 4400 8100 4500
-Entry Wire Line
-	8000 4500 8100 4600
-Entry Wire Line
-	8000 3500 8100 3600
-Entry Wire Line
-	8000 3600 8100 3700
-Entry Wire Line
-	8000 3700 8100 3800
-Entry Wire Line
-	8000 5100 8100 5200
-Entry Wire Line
-	8000 5200 8100 5300
-Entry Wire Line
-	8000 5300 8100 5400
 Wire Wire Line
-	8800 3600 8100 3600
+	7900 3600 8800 3600
 Wire Wire Line
-	8800 3700 8100 3700
+	8000 3700 8800 3700
 Wire Wire Line
 	8800 3800 8100 3800
 Wire Wire Line
-	8800 4400 8100 4400
+	7900 4400 8800 4400
 Wire Wire Line
-	8800 4500 8100 4500
+	8000 4500 8800 4500
 Wire Wire Line
 	8800 4600 8100 4600
 Wire Wire Line
-	8800 5200 8100 5200
+	7900 5200 8800 5200
 Wire Wire Line
-	8800 5300 8100 5300
+	8000 5300 8800 5300
 Wire Wire Line
-	8800 5400 8100 5400
-Wire Bus Line
-	4800 1000 8000 1000
-Wire Bus Line
-	4800 1000 4800 3100
+	8100 5400 8800 5400
 Wire Wire Line
 	2500 4000 2600 4000
 Wire Wire Line
@@ -591,29 +543,65 @@ Connection ~ 2600 3600
 Wire Wire Line
 	3100 3600 3400 3600
 Connection ~ 3200 3600
-Entry Wire Line
-	4800 3100 4900 3200
 Wire Wire Line
-	4900 3000 5400 3000
+	4500 3000 5400 3000
 Wire Wire Line
-	5400 3100 4900 3100
+	4400 3100 5400 3100
 Wire Wire Line
-	5400 3200 4900 3200
-$Comp
-L CP1 CF1
-U 1 1 54D4F236
-P 6550 1750
-F 0 "CF1" H 6600 1850 50  0000 L CNN
-F 1 "47µF" H 6600 1650 50  0000 L CNN
-F 2 "~" H 6550 1750 60  0000 C CNN
-F 3 "~" H 6550 1750 60  0000 C CNN
-	1    6550 1750
-	1    0    0    -1  
-$EndComp
+	4300 3200 5400 3200
 Wire Wire Line
 	6550 1950 6550 2050
 Connection ~ 6550 2050
 Wire Wire Line
 	6550 1550 6550 1500
 Connection ~ 6550 1500
+Wire Wire Line
+	8100 600  8100 5400
+Connection ~ 8100 4600
+Connection ~ 8100 3800
+Connection ~ 8100 3000
+Connection ~ 8100 2200
+Wire Wire Line
+	8000 700  8000 5300
+Connection ~ 8000 4500
+Connection ~ 8000 3700
+Connection ~ 8000 2900
+Connection ~ 8000 2100
+Wire Wire Line
+	7900 800  7900 5200
+Connection ~ 7900 2000
+Connection ~ 7900 2800
+Connection ~ 7900 3600
+Connection ~ 7900 4400
+Wire Wire Line
+	7900 800  4500 800 
+Wire Wire Line
+	4500 800  4500 3000
+Connection ~ 7900 1200
+Wire Wire Line
+	8000 700  4400 700 
+Wire Wire Line
+	4400 700  4400 3100
+Connection ~ 8000 1300
+Wire Wire Line
+	8100 600  4300 600 
+Wire Wire Line
+	4300 600  4300 3200
+Connection ~ 8100 1400
+$Comp
+L CONN_2 P1
+U 1 1 55535943
+P 4900 1600
+F 0 "P1" V 4850 1600 40  0000 C CNN
+F 1 "CONN_2" V 4950 1600 40  0000 C CNN
+F 2 "" H 4900 1600 60  0000 C CNN
+F 3 "" H 4900 1600 60  0000 C CNN
+	1    4900 1600
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5250 1700 5350 1700
+Wire Wire Line
+	5350 1700 5350 2050
+Connection ~ 5350 2050
 $EndSCHEMATC
