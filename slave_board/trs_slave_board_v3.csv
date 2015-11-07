@@ -1,0 +1,10 @@
+"Id";"Designator";"Package";"Quantity";"Designation";"Supplier and ref";
+1;"CAN_Transceiver1";"so-8";1;"SN65HVD232D";;;
+2;"R1";"R3";1;"120";;;
+3;"MASTER_EPOS2_1";"PIN_ARRAY_5x2";1;"Headers_CONN";;;
+4;"P5,P1";"r_pack9";2;"CONN_10";;;
+5;"P6,P2";"PIN_ARRAY_4x1";2;"CONN_4";;;
+6;"P3,P4";"PIN_ARRAY-6X1";2;"CONN_6";;;
+7;"1PIN,1PIN";"1pin";2;"P***";;;
+8;"MBED_SB_1";"Mbed";1;"mbed_NXP_LPC1768";;;
+9;"C1";"C1V5";1;"10µF";;;

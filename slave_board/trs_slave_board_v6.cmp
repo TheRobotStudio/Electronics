@@ -1,0 +1,129 @@
+Cmp-Mod V01 Created by CvPcb (2013-jul-07)-stable date = ven. 22 mai 2015 11:01:33 CEST
+
+BeginCmp
+TimeStamp = /54D3A629;
+Reference = C1;
+ValeurCmp = 10µF;
+IdModule  = C1V5;
+EndCmp
+
+BeginCmp
+TimeStamp = /555F0475;
+Reference = C2;
+ValeurCmp = C;
+IdModule  = c_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /54D0E342;
+Reference = CAN_Transceiver1;
+ValeurCmp = SN65HVD232D;
+IdModule  = so-8;
+EndCmp
+
+BeginCmp
+TimeStamp = /555EFCF1;
+Reference = K1;
+ValeurCmp = CONN_3;
+IdModule  = PIN_ARRAY_3X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /54D0EC4B;
+Reference = MASTER_EPOS2_1;
+ValeurCmp = Headers_CONN;
+IdModule  = PIN_ARRAY_5x2;
+EndCmp
+
+BeginCmp
+TimeStamp = /54D0E21B;
+Reference = MBED_SB_1;
+ValeurCmp = mbed_NXP_LPC1768;
+IdModule  = Mbed;
+EndCmp
+
+BeginCmp
+TimeStamp = /555EE033;
+Reference = MUX_1;
+ValeurCmp = MUX_CD74HC4067;
+IdModule  = SOIC24-WIDE;
+EndCmp
+
+BeginCmp
+TimeStamp = /555EF755;
+Reference = P1;
+ValeurCmp = CONN_4;
+IdModule  = PIN_ARRAY_4x1;
+EndCmp
+
+BeginCmp
+TimeStamp = /554CFAF6;
+Reference = P2;
+ValeurCmp = CONN_4;
+IdModule  = PIN_ARRAY_4x1;
+EndCmp
+
+BeginCmp
+TimeStamp = /554CEC7D;
+Reference = P3;
+ValeurCmp = CONN_6;
+IdModule  = PIN_ARRAY-6X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /554CF15D;
+Reference = P4;
+ValeurCmp = CONN_6;
+IdModule  = PIN_ARRAY-6X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /554CEC8C;
+Reference = P5;
+ValeurCmp = CONN_10;
+IdModule  = r_pack9;
+EndCmp
+
+BeginCmp
+TimeStamp = /554CF3DF;
+Reference = P6;
+ValeurCmp = CONN_4;
+IdModule  = PIN_ARRAY_4x1;
+EndCmp
+
+BeginCmp
+TimeStamp = /555EE042;
+Reference = P7;
+ValeurCmp = CONN_8X2;
+IdModule  = pin_array_8x2;
+EndCmp
+
+BeginCmp
+TimeStamp = /555EFF46;
+Reference = P8;
+ValeurCmp = CONN_1;
+IdModule  = PIN_ARRAY_1;
+EndCmp
+
+BeginCmp
+TimeStamp = /555EFB50;
+Reference = P9;
+ValeurCmp = CONN_1;
+IdModule  = PIN_ARRAY_1;
+EndCmp
+
+BeginCmp
+TimeStamp = /54D0EBED;
+Reference = R1;
+ValeurCmp = 120;
+IdModule  = c_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /555F0758;
+Reference = R2;
+ValeurCmp = R;
+IdModule  = c_0603;
+EndCmp
+
+EndListe

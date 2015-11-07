@@ -1,17 +1,17 @@
-PCBNEW-LibModule-V1  lun. 09 févr. 2015 18:45:31 CET
+PCBNEW-LibModule-V1  lun. 11 mai 2015 17:17:55 CEST
 # encoding utf-8
 Units mm
 $INDEX
 Mbed
 $EndINDEX
 $MODULE Mbed
-Po 0 0 0 15 54D8D1A8 00000000 ~~
+Po 0 0 0 15 5550C6BD 00000000 ~~
 Li Mbed
 Sc 0
-AR 
+AR /54D0E21B
 Op 0 0 0
-T0 1.27 -10.16 1 1 0 0.15 N V 21 N "Mbed_Slave_Board"
-T1 1.27 -5.08 1 1 0 0.15 N V 21 N "MBED_NXP_LPC1768_**"
+T0 1.27 -3.81 1 1 0 0.15 N V 21 N "MBED_SB_1"
+T1 1.27 3.81 1 1 0 0.15 N V 21 N "mbed_NXP_LPC1768"
 DS -11.43 24.13 -11.43 25.4 0.15 21
 DS -11.43 25.4 13.97 25.4 0.15 21
 DS 13.97 25.4 13.97 24.13 0.15 21
@@ -27,473 +27,284 @@ DS -8.89 -26.67 -8.89 24.13 0.15 21
 DS -8.89 24.13 -11.43 24.13 0.15 21
 DS -11.43 24.13 -11.43 -26.67 0.15 21
 $PAD
-Sh "1" C 1 1 0 0 0
-Dr 0.6 0 0
+Sh "1" C 1.5 1.5 0 0 0
+Dr 1 0 0
 At STD N 00E0FFFF
-Ne 0 ""
+Ne 1 "GND"
 Po -10.16 -25.4
 $EndPAD
 $PAD
-Sh "2" C 1 1 0 0 0
-Dr 0.6 0 0
+Sh "2" C 1.5 1.5 0 0 0
+Dr 1 0 0
 At STD N 00E0FFFF
-Ne 0 ""
+Ne 3 "N-0000012"
 Po -10.16 -22.86
 $EndPAD
 $PAD
-Sh "3" C 1 1 0 0 0
-Dr 0.6 0 0
+Sh "3" C 1.5 1.5 0 0 0
+Dr 1 0 0
 At STD N 00E0FFFF
 Ne 0 ""
 Po -10.16 -20.32
 $EndPAD
 $PAD
-Sh "4" C 1 1 0 0 0
-Dr 0.6 0 0
+Sh "4" C 1.5 1.5 0 0 0
+Dr 1 0 0
 At STD N 00E0FFFF
 Ne 0 ""
 Po -10.16 -17.78
 $EndPAD
 $PAD
-Sh "5" C 1 1 0 0 0
-Dr 0.6 0 0
+Sh "5" C 1.5 1.5 0 0 0
+Dr 1 0 0
 At STD N 00E0FFFF
 Ne 0 ""
 Po -10.16 -15.24
 $EndPAD
 $PAD
-Sh "6" C 1 1 0 0 0
-Dr 0.6 0 0
+Sh "6" C 1.5 1.5 0 0 0
+Dr 1 0 0
 At STD N 00E0FFFF
 Ne 0 ""
 Po -10.16 -12.7
 $EndPAD
 $PAD
-Sh "7" C 1 1 0 0 0
-Dr 0.6 0 0
+Sh "7" C 1.5 1.5 0 0 0
+Dr 1 0 0
 At STD N 00E0FFFF
 Ne 0 ""
 Po -10.16 -10.16
 $EndPAD
 $PAD
-Sh "8" C 1 1 0 0 0
-Dr 0.6 0 0
+Sh "8" C 1.5 1.5 0 0 0
+Dr 1 0 0
 At STD N 00E0FFFF
-Ne 0 ""
+Ne 5 "N-000003"
 Po -10.16 -7.62
 $EndPAD
 $PAD
-Sh "9" C 1 1 0 0 0
-Dr 0.6 0 0
+Sh "9" C 1.5 1.5 0 0 0
+Dr 1 0 0
 At STD N 00E0FFFF
-Ne 0 ""
+Ne 6 "N-000004"
 Po -10.16 -5.08
 $EndPAD
 $PAD
-Sh "10" C 1 1 0 0 0
-Dr 0.6 0 0
+Sh "10" C 1.5 1.5 0 0 0
+Dr 1 0 0
 At STD N 00E0FFFF
-Ne 0 ""
+Ne 7 "N-000005"
 Po -10.16 -2.54
 $EndPAD
 $PAD
-Sh "11" C 1 1 0 0 0
-Dr 0.6 0 0
+Sh "11" C 1.5 1.5 0 0 0
+Dr 1 0 0
 At STD N 00E0FFFF
-Ne 0 ""
+Ne 2 "N-000001"
 Po -10.16 0
 $EndPAD
 $PAD
-Sh "12" C 1 1 0 0 0
-Dr 0.6 0 0
+Sh "12" C 1.5 1.5 0 0 0
+Dr 1 0 0
 At STD N 00E0FFFF
 Ne 0 ""
 Po -10.16 2.54
 $EndPAD
 $PAD
-Sh "13" C 1 1 0 0 0
-Dr 0.6 0 0
+Sh "13" C 1.5 1.5 0 0 0
+Dr 1 0 0
 At STD N 00E0FFFF
 Ne 0 ""
 Po -10.16 5.08
 $EndPAD
 $PAD
-Sh "14" C 1 1 0 0 0
-Dr 0.6 0 0
+Sh "14" C 1.5 1.5 0 0 0
+Dr 1 0 0
 At STD N 00E0FFFF
 Ne 0 ""
 Po -10.16 7.62
 $EndPAD
 $PAD
-Sh "15" C 1 1 0 0 0
-Dr 0.6 0 0
+Sh "15" C 1.5 1.5 0 0 0
+Dr 1 0 0
 At STD N 00E0FFFF
 Ne 0 ""
 Po -10.16 10.16
 $EndPAD
 $PAD
-Sh "16" C 1 1 0 0 0
-Dr 0.6 0 0
+Sh "16" C 1.5 1.5 0 0 0
+Dr 1 0 0
 At STD N 00E0FFFF
 Ne 0 ""
 Po -10.16 12.7
 $EndPAD
 $PAD
-Sh "17" C 1 1 0 0 0
-Dr 0.6 0 0
+Sh "17" C 1.5 1.5 0 0 0
+Dr 1 0 0
 At STD N 00E0FFFF
 Ne 0 ""
 Po -10.16 15.24
 $EndPAD
 $PAD
-Sh "18" C 1 1 0 0 0
-Dr 0.6 0 0
+Sh "18" C 1.5 1.5 0 0 0
+Dr 1 0 0
 At STD N 00E0FFFF
 Ne 0 ""
 Po -10.16 17.78
 $EndPAD
 $PAD
-Sh "19" C 1 1 0 0 0
-Dr 0.6 0 0
+Sh "19" C 1.5 1.5 0 0 0
+Dr 1 0 0
 At STD N 00E0FFFF
 Ne 0 ""
 Po -10.16 20.32
 $EndPAD
 $PAD
-Sh "20" C 1 1 0 0 0
-Dr 0.6 0 0
+Sh "20" C 1.5 1.5 0 0 0
+Dr 1 0 0
 At STD N 00E0FFFF
 Ne 0 ""
 Po -10.16 22.86
 $EndPAD
 $PAD
-Sh "21" C 1 1 0 0 0
-Dr 0.6 0 0
+Sh "21" C 1.5 1.5 0 0 0
+Dr 1 0 0
 At STD N 00E0FFFF
 Ne 0 ""
 Po 12.7 22.86
 $EndPAD
 $PAD
-Sh "22" C 1 1 0 0 0
-Dr 0.6 0 0
+Sh "22" C 1.5 1.5 0 0 0
+Dr 1 0 0
 At STD N 00E0FFFF
 Ne 0 ""
 Po 12.7 20.32
 $EndPAD
 $PAD
-Sh "23" C 1 1 0 0 0
-Dr 0.6 0 0
+Sh "23" C 1.5 1.5 0 0 0
+Dr 1 0 0
 At STD N 00E0FFFF
 Ne 0 ""
 Po 12.7 17.78
 $EndPAD
 $PAD
-Sh "24" C 1 1 0 0 0
-Dr 0.6 0 0
+Sh "24" C 1.5 1.5 0 0 0
+Dr 1 0 0
 At STD N 00E0FFFF
 Ne 0 ""
 Po 12.7 15.24
 $EndPAD
 $PAD
-Sh "25" C 1 1 0 0 0
-Dr 0.6 0 0
+Sh "25" C 1.5 1.5 0 0 0
+Dr 1 0 0
 At STD N 00E0FFFF
 Ne 0 ""
 Po 12.7 12.7
 $EndPAD
 $PAD
-Sh "26" C 1 1 0 0 0
-Dr 0.6 0 0
+Sh "26" C 1.5 1.5 0 0 0
+Dr 1 0 0
 At STD N 00E0FFFF
 Ne 0 ""
 Po 12.7 10.16
 $EndPAD
 $PAD
-Sh "27" C 1 1 0 0 0
-Dr 0.6 0 0
+Sh "27" C 1.5 1.5 0 0 0
+Dr 1 0 0
 At STD N 00E0FFFF
 Ne 0 ""
 Po 12.7 7.62
 $EndPAD
 $PAD
-Sh "28" C 1 1 0 0 0
-Dr 0.6 0 0
+Sh "28" C 1.5 1.5 0 0 0
+Dr 1 0 0
 At STD N 00E0FFFF
 Ne 0 ""
 Po 12.7 5.08
 $EndPAD
 $PAD
-Sh "29" C 1 1 0 0 0
-Dr 0.6 0 0
+Sh "29" C 1.5 1.5 0 0 0
+Dr 1 0 0
 At STD N 00E0FFFF
 Ne 0 ""
 Po 12.7 2.54
 $EndPAD
 $PAD
-Sh "30" C 1 1 0 0 0
-Dr 0.6 0 0
+Sh "30" C 1.5 1.5 0 0 0
+Dr 1 0 0
 At STD N 00E0FFFF
 Ne 0 ""
 Po 12.7 0
 $EndPAD
 $PAD
-Sh "31" C 1 1 0 0 0
-Dr 0.6 0 0
+Sh "31" C 1.5 1.5 0 0 0
+Dr 1 0 0
 At STD N 00E0FFFF
 Ne 0 ""
 Po 12.7 -2.54
 $EndPAD
 $PAD
-Sh "32" C 1 1 0 0 0
-Dr 0.6 0 0
+Sh "32" C 1.5 1.5 0 0 0
+Dr 1 0 0
 At STD N 00E0FFFF
 Ne 0 ""
 Po 12.7 -5.08
 $EndPAD
 $PAD
-Sh "33" C 1 1 0 0 0
-Dr 0.6 0 0
+Sh "33" C 1.5 1.5 0 0 0
+Dr 1 0 0
 At STD N 00E0FFFF
 Ne 0 ""
 Po 12.7 -7.62
 $EndPAD
 $PAD
-Sh "34" C 1 1 0 0 0
-Dr 0.6 0 0
+Sh "34" C 1.5 1.5 0 0 0
+Dr 1 0 0
 At STD N 00E0FFFF
 Ne 0 ""
 Po 12.7 -10.16
 $EndPAD
 $PAD
-Sh "35" C 1 1 0 0 0
-Dr 0.6 0 0
+Sh "35" C 1.5 1.5 0 0 0
+Dr 1 0 0
 At STD N 00E0FFFF
 Ne 0 ""
 Po 12.7 -12.7
 $EndPAD
 $PAD
-Sh "36" C 1 1 0 0 0
-Dr 0.6 0 0
+Sh "36" C 1.5 1.5 0 0 0
+Dr 1 0 0
 At STD N 00E0FFFF
 Ne 0 ""
 Po 12.7 -15.24
 $EndPAD
 $PAD
-Sh "37" C 1 1 0 0 0
-Dr 0.6 0 0
+Sh "37" C 1.5 1.5 0 0 0
+Dr 1 0 0
 At STD N 00E0FFFF
 Ne 0 ""
 Po 12.7 -17.78
 $EndPAD
 $PAD
-Sh "38" C 1 1 0 0 0
-Dr 0.6 0 0
+Sh "38" C 1.5 1.5 0 0 0
+Dr 1 0 0
 At STD N 00E0FFFF
 Ne 0 ""
 Po 12.7 -20.32
 $EndPAD
 $PAD
-Sh "39" C 1 1 0 0 0
-Dr 0.6 0 0
+Sh "39" C 1.5 1.5 0 0 0
+Dr 1 0 0
 At STD N 00E0FFFF
 Ne 0 ""
 Po 12.7 -22.86
 $EndPAD
 $PAD
-Sh "40" C 1 1 0 0 0
-Dr 0.6 0 0
+Sh "40" C 1.5 1.5 0 0 0
+Dr 1 0 0
 At STD N 00E0FFFF
-Ne 0 ""
+Ne 4 "N-0000013"
 Po 12.7 -25.4
-$EndPAD
-$PAD
-Sh "41" O 1.5 2.5 0 0 0
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po -5.08 22.86
-$EndPAD
-$PAD
-Sh "42" O 1.5 2.5 0 0 0
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po -2.54 22.86
-$EndPAD
-$PAD
-Sh "43" O 1.5 2.5 0 0 0
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 0 22.86
-$EndPAD
-$PAD
-Sh "44" O 1.5 2.5 0 0 0
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 2.54 22.86
-$EndPAD
-$PAD
-Sh "45" O 1.5 2.5 0 0 0
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 5.08 22.86
-$EndPAD
-$PAD
-Sh "46" O 1.5 2.5 0 0 0
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 7.62 22.86
-$EndPAD
-$PAD
-Sh "47" O 1.5 2.5 0 0 0
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po -7.62 1.27
-$EndPAD
-$PAD
-Sh "48" O 1.5 2.5 0 0 0
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po -5.08 1.27
-$EndPAD
-$PAD
-Sh "49" O 1.5 2.5 0 0 0
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po -2.54 1.27
-$EndPAD
-$PAD
-Sh "50" O 1.5 2.5 0 0 0
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 0 1.27
-$EndPAD
-$PAD
-Sh "51" O 1.5 2.5 0 0 0
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 2.54 1.27
-$EndPAD
-$PAD
-Sh "52" O 1.5 2.5 0 0 0
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 5.08 1.27
-$EndPAD
-$PAD
-Sh "53" O 1.5 2.5 0 0 0
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 7.62 1.27
-$EndPAD
-$PAD
-Sh "54" O 1.5 2.5 0 0 0
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 10.16 1.27
-$EndPAD
-$PAD
-Sh "55" O 1.5 2.5 0 0 0
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 7.62 -25.4
-$EndPAD
-$PAD
-Sh "56" O 1.5 2.5 0 0 0
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 5.08 -19.05
-$EndPAD
-$PAD
-Sh "58" O 1.5 2.5 0 0 0
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po -6.35 -25.4
-$EndPAD
-$PAD
-Sh "59" O 1.5 2.5 0 0 0
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po -3.81 -25.4
-$EndPAD
-$PAD
-Sh "62" O 1.5 2.5 0 0 0
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 10.16 -25.4
-$EndPAD
-$PAD
-Sh "63" O 1.5 2.5 0 0 0
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 5.08 -25.4
-$EndPAD
-$PAD
-Sh "64" O 1.5 2.5 0 0 0
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 7.62 -19.05
-$EndPAD
-$PAD
-Sh "65" O 1.5 2.5 0 0 0
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 10.16 -19.05
-$EndPAD
-$PAD
-Sh "69" O 1.5 2.5 0 0 0
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po -5.08 -22.86
-$EndPAD
-$PAD
-Sh "70" O 1.5 2.5 0 0 0
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po -2.54 -22.86
-$EndPAD
-$PAD
-Sh "73" O 1.5 2.5 0 0 0
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 6.35 -22.86
-$EndPAD
-$PAD
-Sh "74" O 1.5 2.5 0 0 0
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 8.89 -22.86
-$EndPAD
-$PAD
-Sh "75" O 1.5 2.5 0 0 0
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po -7.62 -22.86
 $EndPAD
 $EndMODULE Mbed
 $EndLIBRARY
